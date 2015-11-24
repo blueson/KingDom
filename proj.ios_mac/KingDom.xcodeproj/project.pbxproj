@@ -53,6 +53,8 @@
 		B30F5E531BFEECAD00D61A24 /* WelcomeScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B30F5E501BFEECAD00D61A24 /* WelcomeScene.cpp */; };
 		B3632B141C02D56100C5204C /* SlotMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3632B121C02D56100C5204C /* SlotMenu.cpp */; };
 		B3632B151C02D56100C5204C /* SlotMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3632B121C02D56100C5204C /* SlotMenu.cpp */; };
+		B3751E8C1C040DB600C5A916 /* GameView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3751E8A1C040DB600C5A916 /* GameView.cpp */; };
+		B3751E8D1C040DB600C5A916 /* GameView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3751E8A1C040DB600C5A916 /* GameView.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -113,6 +115,8 @@
 		B30F5E511BFEECAD00D61A24 /* WelcomeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeScene.h; sourceTree = "<group>"; };
 		B3632B121C02D56100C5204C /* SlotMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SlotMenu.cpp; sourceTree = "<group>"; };
 		B3632B131C02D56100C5204C /* SlotMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlotMenu.h; sourceTree = "<group>"; };
+		B3751E8A1C040DB600C5A916 /* GameView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameView.cpp; sourceTree = "<group>"; };
+		B3751E8B1C040DB600C5A916 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -316,6 +320,8 @@
 			children = (
 				B30F5E501BFEECAD00D61A24 /* WelcomeScene.cpp */,
 				B30F5E511BFEECAD00D61A24 /* WelcomeScene.h */,
+				B3751E8A1C040DB600C5A916 /* GameView.cpp */,
+				B3751E8B1C040DB600C5A916 /* GameView.h */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -445,6 +451,7 @@
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				B30F5E521BFEECAD00D61A24 /* WelcomeScene.cpp in Sources */,
+				B3751E8C1C040DB600C5A916 /* GameView.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				B3632B141C02D56100C5204C /* SlotMenu.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
@@ -459,6 +466,7 @@
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				B30F5E531BFEECAD00D61A24 /* WelcomeScene.cpp in Sources */,
 				B3632B151C02D56100C5204C /* SlotMenu.cpp in Sources */,
+				B3751E8D1C040DB600C5A916 /* GameView.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

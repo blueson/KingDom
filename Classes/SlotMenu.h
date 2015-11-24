@@ -23,6 +23,7 @@ public:
     void conform_delete(Ref* pSender);
     void cancel_delete(Ref* pSender);
     void createNewGame();
+    void deleteRecord(int num);
     static SlotMenu* createMenu(int num);
 protected:
     Label* label_hint;
